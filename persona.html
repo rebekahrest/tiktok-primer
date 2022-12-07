@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Bootstrap and me">
+    <meta name="generator" content="Hugo 0.84.ya0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="icon.jpg">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/blog/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a class="blog-header-logo text-dark" href="index.html" style="text-decoration: none";>
+                        <img src="assets/index/elephant1.jpg" height="auto" width="20%" overflow="hidden"/>
+                        </a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo" href="index.html"
+                        style="text-decoration: none">SereneElephant735</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!--Main Body-->
+    <main class="container">
+        <div class="row g-5">
+            <div class="col-md-9">
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Personas and Storyboarding</h2>
+                    <h3 class="pt-3" id="overview">Overview</h3>
+                    <hr>
+                    <div class="row row-cols-md-1 pb-3">
+                        <img src="assets/personas/console.jpg">
+                        <p>An important part of UI/UX design is user research. Designers need to understand
+                            the behaviors, goals, skills, and attitudes of the people who will be using the
+                            products they design. One way that designer can "step into the shoes" of their users
+                            is by creating user personas, which are archetypical users whose characteristics and 
+                            goals represent the needs of a larger group of users. In this project, my goal was 
+                            to create two such personas and a storyboard mapping out a typical user's journey of
+                            using a product from start to finish.
+                        </p>
+                        <p> I chose to observe shoppers at a Lululemon store and observed their interaction with 
+                            a shopping console. The sketch above shows Lululemon’s interactive digital console found in their store.
+                            It allows users to scan product tags and bring up an item's description and view
+                            inventory availability of different colors and sizes in the store, nearby stores, and online. 
+                            Users can also browse the item catalog and search for specific item names. I wanted
+                            to gain a deeper understanding of the kinds of users the interface targets, how users 
+                            interact with the console, and any pain points that could be improved about the user
+                            experience.
+                        </p>
+                    </div>
+
+                    <h3 class="pt-5" id="observations">User Observations</h3>
+                    <hr>
+                    <p>To get a sense of how users interacted with the console, I observed three users and took
+                        note of their reactions and patterns across their use. I also noted any frustrations or
+                        struggles they encountered while using it.
+                    </p>
+                    <ol>
+                        <li>There were two main types of users of the console: shoppers and sales associates.
+                            Shoppers who went to use the console themselves used it to find more information about
+                            a product or look at inventory information. Salespeople used the console to help shoppers
+                            find certain products. In both cases, they mainly used the console for inventory
+                            information.
+                        </li>
+
+                        <li>Shoppers who interacted with the console themselves mostly used it to scan an item tag.
+                            They did not do much browsing of the available items. They went to the console with an item
+                            in
+                            hand and scanned the item and looked at that product description page only. 
+                        </li>
+
+                        <li>When salespeople interacted with the console, they used it to help shoppers find
+                            specific items. Similar to the shoppers who used the consoles themselves, they tended to
+                            first
+                            scan an item tag to check for available inventory in the store. They also scrolled through
+                            item
+                            descriptions to highlight different features of items for shoppers. Salespeople also used
+                            the
+                            search function to look up similar items to suggest.
+                        </li>
+
+                        <li>Shoppers had some difficulties using the tag scanner and expressed some frustration. Both shoppers
+                            and salespeople were occasionally frustrated by the screen’s tendency to get stuck loading.
+                        </li>
+                    </ol>
+                    <h3 class="pt-5" id="interviews">User Interviews</h3>
+                    <hr>
+                    <p> After users finished using the console, I followed up with some interview questions to supplement my
+                        personal observations. Although observations typically match users' descriptions,
+                        sometimes observations and user perceptions can notably differ. It is also helpful to gain more insight
+                        into users' motivations and real-time thought process to shed more light on possible design improvements.
+                        The interview questions and a summary of user responses follow below.</p>
+                    <h5 class="">Interview Questions</h5>
+                    <ol>
+                        <li>What is your first impression of the digital console?</li>
+                        <li> Complete the sentence: “When I go to the item details page, I want to…”</li>
+                        <li> On the item details page, what information is most important to you?</li>
+                        <li> How easily were you able find the product you were looking for?</li>
+                        <li> What is your opinion of the tag scanner functionality?</li>
+                        <li> Is there anything you would like to change about the console functionality?</li>
+                        <li> How would you describe your overall experience using the console?</li>
+                    </ol>
+                    <br>
+                    <h5 class="">Response Summary</h5>
+                    <h6>General Impressions:</h6>
+                    <ul>
+                        <li> generally positive impressions and overall experiences
+                        <li> users liked the simple, clean layout and visual appeal
+                        <li> similarity of the interface to the Lululemon website was a positive
+                        <li> easy to naivigate main menu
+                        <li> users rated overall experiences positively as they were able to find products they wanted to buy
+                    </ul>    
+                    <h6>Use and Functionality:</h6>
+                    <ul>
+                        <li> ability to check item inventory in different sizes and colors was most important to users
+                        <li> the sales associate found the item tag scanner intuitive to use, while both shoppers expressed frustration about
+                            getting the scanner to work  
+                        <li> however, all users liked the tag scanner functionality to quickly find the item’s details page
+                        <li> the sales associate also liked the ability to show users products from
+                            online that they might like that were not in the store
+                        </li>
+                    </ul>
+                    <h6>Potential Improvement Areas:</h6>
+                    <ul>
+                        <li> the sales associate wished the number of items available in a particular size was displayed
+                        <li> users also would have liked for similar items to be displayed at the bottom of a product page
+                        <li>  users mentioned annoyance about the console occasionally becoming stuck on a blank loading screen
+                        <li> the scanner was unintuitive and glitchy
+                    </ul>
+
+                    <h3 class="pt-5" id="personas">User Personas</h3>
+                    <hr>
+                    <p>I constructed two user personas based on trends I observed from the users I interviewed. Since
+                        there were two main types of users, I constructed a shopper persona and a sales associate persona.
+                        The personas are constructed from a combination of traits and behavior patterns observed from multiple
+                        users. As such, they do not represent real users but instead function as archetypes to 
+                        help guide design decisions.
+
+                    </p>
+                    <h4 class="">Savvy Suzie</h4>
+                    <img width="80%" height="auto" src="assets/personas/suzie.jpg">
+                    <br /><br />
+                    <p>
+                        Savvy Suzie is a professional woman in her mid-thirties who regularly
+                        shops at Lululemon. She loves running and likes to buy functional, stylish clothing for her
+                        workouts. She loves a good sale and is eager to find quality pieces she likes at the right
+                        price. Savvy Suzie represents the customer who shops regularly at Lululemon and is familiar with 
+                        Lululemon’s products and sales strategies. She doesn’t need much help from sales associates, prefering to
+                        look items up herself on the console, and knows about the stores’ shared inventory system to
+                        take advantage of sales.
+                    </p>
+                    <br>
+                    <h4 class="">Sunny Selena</h4>
+                    <img width="80%" height="auto" src="assets/personas/selena.jpg">
+                    <p>
+                        Sunny Selena is a woman in her mid-twenties who is a sales associate at Lululemon. She likes to
+                        do yoga and hiking and has many clothes from Lululemon which fit her active lifestyle. She
+                        always approaches customers with a bright attitude and cheery smile, and she enjoys helping
+                        customers find the gear that helps them perform their best. Selena finds the interactive console
+                        in store helpful for quickly scanning item tags and checking the inventory of products for
+                        customers, although she wishes it showed the number of items in stock. She also finds it useful
+                        for explaining technical features of clothing for different activities and for showing customers
+                        other products they might like. Selena represents a typical Lululemon sales associate who is eager 
+                        to help out customers and share the feature of their favorite items.
+
+                    </p>
+                    <h3 class="pt-5" id="storyboard">Storyboard</h3>
+                    <hr>
+                    <p>After constructing the personas, I zeroed in on Suzie's interaction with the console to understand
+                        more about her specific needs and frustration points when using it. I based this interaction off of
+                        my observations of the shoppers who used the console and the struggles they encountered. I constructed 
+                        a storyboard mapping out a typical interaction Suzie might have with the console from start to finish.</p>
+                    <img src="assets/personas/storyboard.jpg" width="100%">
+                    
+                    <h3 class="pt-5" id="summary">Summary</h3>
+                    <hr>
+                    <p>
+                        Personas are powerful tools for the design process. Future improvements to Lululemon's console
+                        can be guided by the personas of users who interact with it, keeping in mind the needs and behaviors
+                        specific to them. Personas and storyboards are essential for creating understanding and 
+                        empathy with end users so that designs reflect the needs of the intended audience.
+                    </p>
+
+                </article>
+
+
+                <!-- <nav class="blog-pagination" aria-label="Pagination">
+                    <a class="btn btn-outline-primary" href="#">Back to start</a> -->
+                    <!--                <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>-->
+                <!-- </nav> -->
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 bg-light rounded">
+                        <h4 class="">Content Outline</h4>
+                        <ol>
+                            <li><a class="blog-content" href="#overview">Overview</a></li>
+                            <li><a class="blog-content" href="#observations">User Observations</a></li>
+                            <li><a class="blog-content" href="#interviews">Interviews</a></li>
+                            <li><a class="blog-content" href="#personas">User Personas</a></li>
+                            <li><a class="blog-content" href="#storyboard">Storyboard</a></li>
+                            <li><a class="blog-content" href="#summary">Summary</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="blog-footer">
+        <img src="assets/index/elephant4.jpg" height="auto" width="4%" overflow="hidden"/>
+        <p>Built with love</p>
+        <p>
+            <a href="#" class="blog-link">Back to top</a>
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>

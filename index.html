@@ -1,0 +1,213 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="icon.jpg">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" >
+<meta name="theme-color" content="#712cf9">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .info {
+      display: none;
+      color: #fff;
+      left : 0;
+      top : 45%;
+      right : 0;
+      text-align : center;
+      position: absolute;
+    }
+
+  .pic:hover .overlay {
+      position: absolute;
+      top: 0;
+      width:100%;
+      height:99.5%;
+      left: 0;
+      background-color:#000;
+      opacity:0.5;
+      display: block;
+  }
+
+  .pic:hover .info {
+      display: block;
+      font-size: xx-large;
+      font-family: Georgia, 'Times New Roman', Times, sans-serif;
+  }
+
+  .title-text {
+    font-size: 1.75rem;
+    font-weight: 300;
+  }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+<div class="container">
+  <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+              <!-- <a class="link-secondary" href="#">Subscribe</a>-->
+              <a class="blog-header-logo" href="index.html" style="text-decoration: none";>
+              <img src="assets/index/elephant1.jpg" height="auto" width="20%" overflow="hidden"/>
+              </a>
+          </div>
+          <div class="col-4 text-center">
+              <a class="blog-header-logo" href="index.html" style="text-decoration: none";>SereneElephant735</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+          </div>
+      </div>
+  </header>
+</div>
+
+<main>
+<div class="container">
+</div>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-7 mx-auto">
+        <h1 class="fw-light">Hello!</h1>
+        <p class="title-text text-muted">I'm SereneElephant735. I am a Brown CS student who enjoys making intuitive applications for positive user interactions.</p>
+      </div>
+      <div class="col-lg-5 col-md-5 pt-1">
+        <img src="assets/index/elephant6.jpg" height="auto" width="60%" overflow="hidden"/>
+      </div>
+    </div>
+    
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+        <div class="col">
+          <div class="card shadow-sm pic">
+            <a href="dining.html">
+                <img src="assets/index/ratty.png" height="auto" width="100%" overflow="hidden"/>
+                <div class="overlay"></div>
+                <div class="info">
+                  <p class="text">Software Development</p>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm pic">
+            <a href="iterative.html">
+              <img src="assets/index/toko.png" height="auto" width="100%" overflow="hidden"/>
+              <div class="overlay"></div>
+              <div class="info">
+                <p class="text">Iterative Design</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm pic">
+            <a href="persona.html">
+                <img src="assets/index/persona.jpg" height="auto" width="100%" overflow="hidden"/>
+                <div class="overlay"></div>
+                <div class="info">
+                  <p class="text">Personas and Storyboarding</p>
+                </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm pic">
+            <a href="redesign.html">
+              <img src="assets/index/pizza.png" height="auto" width="100%" overflow="hidden"/>
+              <div class="overlay"></div>
+              <div class="info">
+                <p class="text">Responsive Redesign</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="blog-footer">
+  <img src="assets/index/elephant4.jpg" height="auto" width="4%" overflow="hidden"/>
+  <p>Built with love</p>
+  <p>
+      <a href="#" class="blog-link">Back to top</a>
+  </p>
+</footer>
+
+
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>

@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Bootstrap and me">
+    <meta name="generator" content="Hugo 0.84.ya0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="icon.jpg">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/blog/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a class="blog-header-logo text-dark" href="index.html" style="text-decoration: none";>
+                        <img src="assets/index/elephant1.jpg" height="auto" width="20%" overflow="hidden"/>
+                        </a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo" href="index.html"
+                        style="text-decoration: none">SereneElephant735</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                </div>
+            </div>
+        </header>
+
+    </div>
+
+    <!--Main Body-->
+    <main class="container">
+        <div class="row g-5">
+            <div class="col-md-9">
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Responsive Redesign</h2>
+                    <h3 class="pt-3" id="overview">Overview</h3>
+                    <hr>
+                    <img class="pb-4" src="assets/redesign/pizza.png" width="80%">
+                    <br />
+                    <p>For this project, my goal was to redesign a website that had serious flaws related to
+                        usability and accessibility standards. I went through the entire workflow of a redesign,
+                        starting from
+                        identifying flaws, creating low-fidelity sketches, composing a style guide, creating
+                        high-fidelity prototypes
+                        for different screen sizes, and finally a building redesigned website. I chose to redesign a
+                        local pizza restaurant’s website called Adrian’s Pizza
+                        because I have interacted with it in the past and was not satisfied with my experience,
+                        so I think this website could benefit from a redesign. </p>
+
+                    <h3 class="pt-5" id="issues">Webpage Usability Issues</h3>
+                    <hr>
+                    <img class="pb-4" src="assets/redesign/adrians.png" width="80%">
+                    <p>This is the original webpage. I identified several usability issues with the website related
+                        to efficiency, learnability, and
+                        memorability.
+                    </p>
+                    <ol>
+
+                        <li>The website uses inconsistent fonts with multiple styles (drop shadow, plain black text,
+                            embedded in an image),
+                            which hurts readability.
+                        </li>
+
+                        <li>The page has text embedded in images which is blurry, and the red title with drop
+                            shadow has poor contrast with the background.
+                        </li>
+
+                        <li> The website has poor memorability. There is no constant color scheme and company branding
+                            colors are not clear to customers.
+                        </li>
+
+                        <li>The page is not responsive to resizing for different screen sizes, making it unusable on
+                            devices besides laptops.
+                        </li>
+
+                        <li>The two separate buttons for ordering at different locations are potentially confusing to
+                            users,
+                            who may click on the first order button they see according to scanning hierarchy-most likely
+                            the one on the left.
+                        </li>
+
+                        <li> There is a tab for online ordering on the navigation bar which links back to the main page,
+                            so it doesn’t cause any visual change, potentially causing users to think the link is
+                            broken.
+                        </li>
+
+                    </ol>
+
+                    <!-- <h3 class="pt-5" id="accessibility">Accessibility Testing</h3>
+                    <hr>
+                    <p>
+                        WebAIM WAVE, a site with evaluation tools for assessing website accessibility to individuals
+                        with disabilities, found
+                        several accessibility issues with the website. Here are a few that stood out:
+                    </p>
+                    <ol>
+                        <li>WAVE found that there was very low contrast between text and background colors, which hurts
+                            text readability.</li>
+                        <li> Images do not have alternative text, which means the content of images won’t be available
+                            to screen reader users.</li>
+                        <li> The language of the page is not identified, which does not allow for automatic translation
+                            of a page. Several text items
+                            were in images, which is a poor choice for translation reasons and even just showing up on
+                            the page when images don’t load.</li>
+                        <li> The online ordering link is a redundant link, which links to the home page. This was an
+                            issue that I identified as well.</li>
+                    </ol> -->
+
+                    <h3 class="pt-5" id="lofi">Low-Fidelity Wireframes</h3>
+                    <hr>
+                    <p>To begin my redesign process, I began by sketching some low fidelity wireframes of a redesigned
+                        website for multiple screen sizes: computer, ipad, and phone. This is an important step
+                        for making a website responsive to design different screen configurations for different devices.
+                        I carefully considered what needed to change between devices while keeping a consistent design feel.
+                        Notably, on the phone screen the top navigation bar was condensed into a hamburger menu.
+
+                    </p>
+                    <h5 class="">Computer</h5>
+                    <img src="assets/redesign/wireframe1.png" width="80%">
+                    <br /><br />
+                    <h5 class="">Ipad</h5>
+                    <img src="assets/redesign/wireframe2.png" width="80%">
+                    <br /><br />
+                    <h5 class="">Phone</h5>
+                    <img src="assets/redesign/wireframe3.png" width="60%">
+
+
+                    <h3 class="pt-5" id="style">Style Guide</h3>
+                    <hr>
+                    <p> Next, I constructed a style guide to use when constructing
+                        high-fidelity prototypes. It details colors, heading and body text styles, and buttons and tabs.
+                        I decided to use a color palette of white, and black for a sleek design feel with highlights
+                        of red for some color pop.
+                    </p>
+                    <img src="assets/redesign/styles.jpg" width="70%">
+
+
+                    <h3 class="pt-5" id="hifi">High Fidelity Prototyping</h3>
+                    <hr>
+                    <p>After constructing a style guide, I used it to compose high-fidelity protoptypes, again for each
+                        of the screen sizes. I kept the page layouts consistent from the low-fidelity 
+                        wireframes as the components worked well together in the mockup without much
+                        adjustment.
+                    </p>
+                    <h5 class="">Computer</h5>
+                    <img src="assets/redesign/computer.jpg" width="80%">
+                    <br /><br />
+                    <h5 class="">Ipad</h5>
+                    <img src="assets/redesign/ipad.jpg" width="60%">
+                    <br /><br />
+                    <h5 class="">Phone</h5>
+                    <img src="assets/redesign/phone.jpg" width="70%">
+
+
+                    <h3 class="pt-5" id="redesign">Final Redesigned Page</h3>
+                    <hr>
+                    <img src="assets/redesign/webpage.png" width="90%">
+                    <br><br>
+                    <p>Finally, I created a responsive webpage according to my high-fidelity prototypes. The final
+                        result can be viewed
+                        <a class ="blog-link" href="./responsive redesign/src/AdriansPizza.html">here.</a>
+                        I was able to replicate my high-fidelity prototypes pretty closely on the 
+                        final webpage. The website is also responsive to different screen sizes 
+                        and adjusts the layout accordingly.
+                    </p>
+
+                    <h3 class="pt-5" id="summary">Summary</h3>
+                    <hr>
+                    <p> This project was great practice in the workflow of redesigning a website.
+                        The visual design of a webpage plays a large role in the user's experience.
+                        The responsiveness of a page is a crucial part of reaching users who access
+                        pages on different devices. Creating a great responsive webpage is a difficult
+                        task, and I have a newfound appreciation for the hard work that goes into creating 
+                        well-designed webpages.
+                    </p>
+
+                </article>
+
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 bg-light rounded">
+                        <h4 class="">Content Outline</h4>
+                        <ol>
+                            <li><a class="blog-content" href="#overview">Overview</a></li>
+                            <li><a class="blog-content" href="#usability">Usability Issues</a></li>
+                            <li><a class="blog-content" href="#lofi">Low-Fidelity Wireframes</a></li>
+                            <li><a class="blog-content" href="#style">Style Guide</a></li>
+                            <li><a class="blog-content" href="#hifi">High Fidelity Prototyping</a></li>
+                            <li><a class="blog-content" href="#redesign">Final Redesigned Page</a></li>
+                            <li><a class="blog-content" href="#summary">Summary</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="blog-footer">
+        <img src="assets/index/elephant4.jpg" height="auto" width="4%" overflow="hidden"/>
+        <p>Built with love</p>
+        <p>
+            <a href="#" class="blog-link">Back to top</a>
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>
